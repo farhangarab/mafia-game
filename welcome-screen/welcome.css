@@ -1,0 +1,43 @@
+  body {
+    font-family: "Yekan", sans-serif;
+  }
+
+  h1 {
+    font-family: "A Fetne", cursive;
+    font-size: 70px;
+  }
+  span {
+    color: #eb1700;
+  }
+  p {
+    font-size: 30px;
+  }
+  img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .ruby-red-button {
+    background-color: #b41200; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .ruby-red-button:hover {
+    background-color: #e40000;
+  }
+
+
+  @media (max-width: 650px) {
+    .center-buttons {
+      display: flex;
+      justify-content: center;
+    }
+    .ruby-red-button{
+      margin-left: 5px;
+      margin-bottom: 15px;
+    }
+  }
